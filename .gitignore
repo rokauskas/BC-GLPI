@@ -1,0 +1,24 @@
+# AL/Business Central
+.alpackages/
+.vscode/*.json
+*.app
+*.vsix
+*.code-workspace
+*.user
+*.suo
+*.nupkg
+*.snk
+*.pfx
+*.cer
+*.key
+*.db
+*.bak
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.env
+secrets.json
