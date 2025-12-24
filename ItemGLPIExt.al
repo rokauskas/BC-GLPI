@@ -23,7 +23,7 @@ tableextension 50101 ItemGLPIExt extends Item
             Caption = 'Last Synced At';
             Description = 'Stores when the last sync happened.';
         }
-        field(50103; ExternalSystemID; Text[50])
+        field(50103; GLPISystemID; Text[50])
         {
             DataClassification = SystemMetadata;
             Caption = 'External System ID';

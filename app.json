@@ -1,7 +1,7 @@
 {
   "id": "558ddf43-95d9-45f2-9668-91696fce18d3",
-  "name": "ALExtDefaultConnection",
-  "publisher": "Default Publisher",
+  "name": "BC-GLPI",
+  "publisher": "rokauskas",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",

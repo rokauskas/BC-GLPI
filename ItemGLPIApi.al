@@ -22,7 +22,7 @@ page 50110 ItemGLPIApi
             field(IsSynced; Rec.IsSynced) { }
             field(NeedsSync; Rec.NeedsSync) { }
             field(LastSyncedAt; Rec.LastSyncedAt) { }
-            field(ExternalSystemID; Rec.ExternalSystemID) { }
+            field(GLPISystemID; Rec.GLPISystemID) { }
             // field(LastModifiedDateTime; Rec.LastModifiedDateTime) { }
         }
     }
