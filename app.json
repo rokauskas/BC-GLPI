@@ -1,39 +1,75 @@
 {
-  "id": "558ddf43-95d9-45f2-9668-91696fce18d3",
-  "name": "BC-GLPI",
-  "publisher": "rokauskas",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [
-    {
-      "id": "75f1590f-55c5-4501-ae63-bada5534e852",
-      "name": "Performance Toolkit",
-      "publisher": "Microsoft",
-      "version": "26.2.34746.34832"
-    }
-  ],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "26.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "15.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "id": "558ddf43-95d9-45f2-9668-91696fce18d3",
+    "name": "BC-GLPI",
+    "publisher": "rokauskas",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "75f1590f-55c5-4501-ae63-bada5534e852",
+            "name": "Performance Toolkit",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "B3780CD9-F8F8-4A83-A4D5-0C2AD87B28AF",
+            "name": "Sustainability",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "E2AE191D-8829-44C3-A373-3749A2742D4D",
+            "name": "Service Declaration",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "3099FFC7-4CF7-4DF6-9B96-7E4BC2BB587C",
+            "name": "Subscription Billing",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "70912191-3C4C-49FC-A1DE-BC6EA1AC9DA6",
+            "name": "Intrastat Core",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "EC255F57-31D0-4CA2-B751-F2FA7C745ABB",
+            "name": "Shopify Connector",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        },
+        {
+            "id": "C526B3E9-B8CA-4683-81BA-FCD5F6B1472A",
+            "name": "Sales and Inventory Forecast",
+            "publisher": "Microsoft",
+            "version": "26.2.34746.34832"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.2.34746.34832",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith"
+    ]
 }

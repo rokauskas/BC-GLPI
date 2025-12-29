@@ -17,6 +17,27 @@
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "usePublicURLFromServer": true
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "server": "http://SRV-BC",
+            "serverInstance": "BC260",
+            "authentication": "Windows",
+            "port": 7049
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "server": "http://SRV-BC",
+            "serverInstance": "BC260",
+            "authentication": "Windows",
+            "port": 7049,
+            "sessionId": 129,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry"
         }
     ]
 }
